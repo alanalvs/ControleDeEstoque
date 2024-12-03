@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - App", "1 - App", "{1E93EB91-74C3-4D0B-9C27-DB65FDA60400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeEstoque", "ControleDeEstoque\ControleDeEstoque.csproj", "{5B60168E-81E1-4D97-9299-F4D732B63761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B60168E-81E1-4D97-9299-F4D732B63761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B60168E-81E1-4D97-9299-F4D732B63761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B60168E-81E1-4D97-9299-F4D732B63761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B60168E-81E1-4D97-9299-F4D732B63761}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B60168E-81E1-4D97-9299-F4D732B63761} = {1E93EB91-74C3-4D0B-9C27-DB65FDA60400}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81D96755-743A-4754-BE08-840F10F7F926}
+	EndGlobalSection
+EndGlobal
