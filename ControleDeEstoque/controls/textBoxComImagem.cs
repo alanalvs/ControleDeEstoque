@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ControleDeEstoque
+namespace ControleDeEstoque.controls
 {
-    public partial class Form1 : Form
+    public partial class textBoxComImagem : UserControl
     {
-        public Form1()
+        public textBoxComImagem()
         {
             InitializeComponent();
         }
