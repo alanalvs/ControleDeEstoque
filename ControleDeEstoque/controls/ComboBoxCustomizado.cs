@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Drawing.Design;
 using System.Drawing.Drawing2D;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +12,7 @@ using System.Windows.Forms;
 namespace ControleDeEstoque.controls
 {
     [DefaultEvent("OnSelectedIndexChanged")]
-    public class novosComboBox : UserControl
+    public class ComboBoxCustomizado : UserControl
     {
         //Atributos
         private Color backColor = Color.WhiteSmoke;
@@ -32,7 +31,7 @@ namespace ControleDeEstoque.controls
         public event EventHandler OnSelectedIndexChanged;//Default event
 
         //Construtor
-        public novosComboBox()
+        public ComboBoxCustomizado()
         {
             cmbList = new ComboBox();
             lblText = new Label();
@@ -283,11 +282,11 @@ namespace ControleDeEstoque.controls
             set { cmbList.ValueMember = value; }
         }
 
-        public string SelectedValue
-        {
-            get { return cmbList.SelectedValue.ToString(); }
-            set { cmbList.SelectedValue = value; }
-        }
+        //public string SelectedValue
+        //{
+        //    get { return cmbList.SelectedValue.ToString(); }
+        //    set { cmbList.SelectedValue = value; }
+        //}
 
 
         //Métodos privados

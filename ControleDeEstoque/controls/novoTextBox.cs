@@ -139,6 +139,13 @@ namespace ControleDeEstoque.controls
             get { return textBox1.ReadOnly; }
             set { textBox1.ReadOnly = value; }
         }
+
+        [Category("Botoes")]
+        public HorizontalAlignment TextAlign
+        {
+            get { return textBox1.TextAlign; }
+            set { textBox1.TextAlign = value; }
+        }
         //Complemento do método
 
         protected override void OnPaint(PaintEventArgs e)

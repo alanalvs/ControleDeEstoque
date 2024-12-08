@@ -58,29 +58,17 @@
     <Compile Include="controls\novoBotao.Designer.cs">
       <DependentUpon>novoBotao.cs</DependentUpon>
     </Compile>
-    <Compile Include="controls\novoComboBox.cs">
+    <Compile Include="controls\ComboBoxCustomizado.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\novoComboBox.Designer.cs">
-      <DependentUpon>novoComboBox.cs</DependentUpon>
+    <Compile Include="controls\ComboBoxCustomizado.Designer.cs">
+      <DependentUpon>ComboBoxCustomizado.cs</DependentUpon>
     </Compile>
     <Compile Include="controls\novoTextBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="controls\novoTextBox.Designer.cs">
       <DependentUpon>novoTextBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="controls\NovoTextBoxReadOnly.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="controls\NovoTextBoxReadOnly.Designer.cs">
-      <DependentUpon>NovoTextBoxReadOnly.cs</DependentUpon>
-    </Compile>
-    <Compile Include="controls\NovoTextBoxTextAlign.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="controls\NovoTextBoxTextAlign.Designer.cs">
-      <DependentUpon>NovoTextBoxTextAlign.cs</DependentUpon>
     </Compile>
     <Compile Include="controls\textBoxComImagem.cs">
       <SubType>UserControl</SubType>
@@ -96,6 +84,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="utils\Helpers.cs" />
     <Compile Include="views\FrmCadastroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +105,9 @@
     </Compile>
     <EmbeddedResource Include="controls\novoTextBox.resx">
       <DependentUpon>novoTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\textBoxComImagem.resx">
+      <DependentUpon>textBoxComImagem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="controls\textBoxComImagemDireita.resx">
       <DependentUpon>textBoxComImagemDireita.cs</DependentUpon>
@@ -144,6 +136,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="controllers\" />
+    <Folder Include="dao\" />
+    <Folder Include="dto\" />
+    <Folder Include="models\" />
+    <Folder Include="resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
