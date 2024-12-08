@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controls\CabecalhoAplicacao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\CabecalhoAplicacao.Designer.cs">
+      <DependentUpon>CabecalhoAplicacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="controls\modeloBotao.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -85,6 +91,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="utils\Helpers.cs" />
+    <Compile Include="views\FrmCadastroProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\FrmCadastroProduto.Designer.cs">
+      <DependentUpon>FrmCadastroProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\FrmCadastroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +115,9 @@
     <Compile Include="views\FrmMenuPrincipal.Designer.cs">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="controls\CabecalhoAplicacao.resx">
+      <DependentUpon>CabecalhoAplicacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="controls\novoTextBox.resx">
       <DependentUpon>novoTextBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,6 +136,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="views\FrmCadastroProduto.resx">
+      <DependentUpon>FrmCadastroProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="views\FrmTelaLogin.resx">
       <DependentUpon>FrmTelaLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,7 +163,9 @@
     <Folder Include="dao\" />
     <Folder Include="dto\" />
     <Folder Include="models\" />
-    <Folder Include="resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\calendario.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
