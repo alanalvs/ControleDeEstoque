@@ -28,44 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtDescricao = new ControleDeEstoque.controls.novoTextBox();
             this.lbl_calendario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtClassificacao = new ControleDeEstoque.controls.novoTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtPreco = new ControleDeEstoque.controls.novoTextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtEstoque = new ControleDeEstoque.controls.novoTextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtNCM = new ControleDeEstoque.controls.novoTextBox();
-            this.btnConfirmar = new ControleDeEstoque.controls.ModeloBotao();
-            this.btnSair = new ControleDeEstoque.controls.ModeloBotao();
-            this.btnExcluir = new ControleDeEstoque.controls.ModeloBotao();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtTabPreco = new ControleDeEstoque.controls.novoTextBox();
             this.txtCodigo = new ControleDeEstoque.controls.novoTextBox();
+            this.btnExcluir = new ControleDeEstoque.controls.ModeloBotao();
+            this.btnSair = new ControleDeEstoque.controls.ModeloBotao();
+            this.btnConfirmar = new ControleDeEstoque.controls.ModeloBotao();
+            this.txtNCM = new ControleDeEstoque.controls.novoTextBox();
+            this.txtEstoque = new ControleDeEstoque.controls.novoTextBox();
+            this.txtPreco = new ControleDeEstoque.controls.novoTextBox();
+            this.txtClassificacao = new ControleDeEstoque.controls.novoTextBox();
+            this.txtDescricao = new ControleDeEstoque.controls.novoTextBox();
             this.SuspendLayout();
-            // 
-            // txtDescricao
-            // 
-            this.txtDescricao.BackColor = System.Drawing.SystemColors.Window;
-            this.txtDescricao.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.txtDescricao.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txtDescricao.BorderSize = 1;
-            this.txtDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.txtDescricao.ForeColor = System.Drawing.Color.DimGray;
-            this.txtDescricao.Location = new System.Drawing.Point(147, 154);
-            this.txtDescricao.Margin = new System.Windows.Forms.Padding(5);
-            this.txtDescricao.Multiline = false;
-            this.txtDescricao.Name = "txtDescricao";
-            this.txtDescricao.Padding = new System.Windows.Forms.Padding(9);
-            this.txtDescricao.PasswordChar = false;
-            this.txtDescricao.ReadOnly = false;
-            this.txtDescricao.Size = new System.Drawing.Size(333, 35);
-            this.txtDescricao.TabIndex = 0;
-            this.txtDescricao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtDescricao.TextNew = "";
-            this.txtDescricao.UnderlinedStyle = true;
             // 
             // lbl_calendario
             // 
@@ -89,27 +70,6 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Classificação";
             // 
-            // txtClassificacao
-            // 
-            this.txtClassificacao.BackColor = System.Drawing.SystemColors.Window;
-            this.txtClassificacao.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.txtClassificacao.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txtClassificacao.BorderSize = 1;
-            this.txtClassificacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.txtClassificacao.ForeColor = System.Drawing.Color.DimGray;
-            this.txtClassificacao.Location = new System.Drawing.Point(179, 211);
-            this.txtClassificacao.Margin = new System.Windows.Forms.Padding(5);
-            this.txtClassificacao.Multiline = false;
-            this.txtClassificacao.Name = "txtClassificacao";
-            this.txtClassificacao.Padding = new System.Windows.Forms.Padding(9);
-            this.txtClassificacao.PasswordChar = false;
-            this.txtClassificacao.ReadOnly = false;
-            this.txtClassificacao.Size = new System.Drawing.Size(333, 35);
-            this.txtClassificacao.TabIndex = 3;
-            this.txtClassificacao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtClassificacao.TextNew = "";
-            this.txtClassificacao.UnderlinedStyle = true;
-            // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -120,27 +80,6 @@
             this.label2.Size = new System.Drawing.Size(65, 29);
             this.label2.TabIndex = 6;
             this.label2.Text = "Preço";
-            // 
-            // txtPreco
-            // 
-            this.txtPreco.BackColor = System.Drawing.SystemColors.Window;
-            this.txtPreco.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.txtPreco.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txtPreco.BorderSize = 1;
-            this.txtPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.txtPreco.ForeColor = System.Drawing.Color.DimGray;
-            this.txtPreco.Location = new System.Drawing.Point(147, 256);
-            this.txtPreco.Margin = new System.Windows.Forms.Padding(5);
-            this.txtPreco.Multiline = false;
-            this.txtPreco.Name = "txtPreco";
-            this.txtPreco.Padding = new System.Windows.Forms.Padding(9);
-            this.txtPreco.PasswordChar = false;
-            this.txtPreco.ReadOnly = false;
-            this.txtPreco.Size = new System.Drawing.Size(333, 35);
-            this.txtPreco.TabIndex = 5;
-            this.txtPreco.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtPreco.TextNew = "";
-            this.txtPreco.UnderlinedStyle = true;
             // 
             // label3
             // 
@@ -153,27 +92,6 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Estoque";
             // 
-            // txtEstoque
-            // 
-            this.txtEstoque.BackColor = System.Drawing.SystemColors.Window;
-            this.txtEstoque.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.txtEstoque.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txtEstoque.BorderSize = 1;
-            this.txtEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.txtEstoque.ForeColor = System.Drawing.Color.DimGray;
-            this.txtEstoque.Location = new System.Drawing.Point(147, 301);
-            this.txtEstoque.Margin = new System.Windows.Forms.Padding(5);
-            this.txtEstoque.Multiline = false;
-            this.txtEstoque.Name = "txtEstoque";
-            this.txtEstoque.Padding = new System.Windows.Forms.Padding(9);
-            this.txtEstoque.PasswordChar = false;
-            this.txtEstoque.ReadOnly = false;
-            this.txtEstoque.Size = new System.Drawing.Size(333, 35);
-            this.txtEstoque.TabIndex = 7;
-            this.txtEstoque.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtEstoque.TextNew = "";
-            this.txtEstoque.UnderlinedStyle = true;
-            // 
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -184,84 +102,6 @@
             this.label4.Size = new System.Drawing.Size(58, 29);
             this.label4.TabIndex = 10;
             this.label4.Text = "NCM";
-            // 
-            // txtNCM
-            // 
-            this.txtNCM.BackColor = System.Drawing.SystemColors.Window;
-            this.txtNCM.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.txtNCM.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txtNCM.BorderSize = 1;
-            this.txtNCM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.txtNCM.ForeColor = System.Drawing.Color.DimGray;
-            this.txtNCM.Location = new System.Drawing.Point(593, 154);
-            this.txtNCM.Margin = new System.Windows.Forms.Padding(5);
-            this.txtNCM.Multiline = false;
-            this.txtNCM.Name = "txtNCM";
-            this.txtNCM.Padding = new System.Windows.Forms.Padding(9);
-            this.txtNCM.PasswordChar = false;
-            this.txtNCM.ReadOnly = false;
-            this.txtNCM.Size = new System.Drawing.Size(190, 35);
-            this.txtNCM.TabIndex = 9;
-            this.txtNCM.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtNCM.TextNew = "";
-            this.txtNCM.UnderlinedStyle = true;
-            // 
-            // btnConfirmar
-            // 
-            this.btnConfirmar.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnConfirmar.BackgroundColor = System.Drawing.Color.ForestGreen;
-            this.btnConfirmar.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnConfirmar.BorderRadius = 15;
-            this.btnConfirmar.BorderSize = 0;
-            this.btnConfirmar.FlatAppearance.BorderSize = 0;
-            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmar.ForeColor = System.Drawing.Color.White;
-            this.btnConfirmar.Location = new System.Drawing.Point(50, 389);
-            this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(150, 40);
-            this.btnConfirmar.TabIndex = 11;
-            this.btnConfirmar.Text = "Confirmar";
-            this.btnConfirmar.TextColor = System.Drawing.Color.White;
-            this.btnConfirmar.UseVisualStyleBackColor = false;
-            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
-            // 
-            // btnSair
-            // 
-            this.btnSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnSair.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnSair.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnSair.BorderRadius = 15;
-            this.btnSair.BorderSize = 0;
-            this.btnSair.FlatAppearance.BorderSize = 0;
-            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(362, 389);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(150, 40);
-            this.btnSair.TabIndex = 12;
-            this.btnSair.Text = "Sair";
-            this.btnSair.TextColor = System.Drawing.Color.White;
-            this.btnSair.UseVisualStyleBackColor = false;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
-            // 
-            // btnExcluir
-            // 
-            this.btnExcluir.BackColor = System.Drawing.Color.Red;
-            this.btnExcluir.BackgroundColor = System.Drawing.Color.Red;
-            this.btnExcluir.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnExcluir.BorderRadius = 15;
-            this.btnExcluir.BorderSize = 0;
-            this.btnExcluir.FlatAppearance.BorderSize = 0;
-            this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExcluir.ForeColor = System.Drawing.Color.White;
-            this.btnExcluir.Location = new System.Drawing.Point(206, 389);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(150, 40);
-            this.btnExcluir.TabIndex = 13;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.TextColor = System.Drawing.Color.White;
-            this.btnExcluir.UseVisualStyleBackColor = false;
-            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // label5
             // 
@@ -285,6 +125,40 @@
             this.label6.TabIndex = 16;
             this.label6.Text = "Código";
             // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(488, 262);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(109, 29);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Tab. Preço";
+            // 
+            // txtTabPreco
+            // 
+            this.txtTabPreco.BackColor = System.Drawing.SystemColors.Window;
+            this.txtTabPreco.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.txtTabPreco.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtTabPreco.BorderSize = 1;
+            this.txtTabPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.txtTabPreco.ForeColor = System.Drawing.Color.DimGray;
+            this.txtTabPreco.Location = new System.Drawing.Point(608, 256);
+            this.txtTabPreco.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTabPreco.Multiline = false;
+            this.txtTabPreco.Name = "txtTabPreco";
+            this.txtTabPreco.Padding = new System.Windows.Forms.Padding(9);
+            this.txtTabPreco.PasswordChar = false;
+            this.txtTabPreco.ReadOnly = false;
+            this.txtTabPreco.Size = new System.Drawing.Size(175, 35);
+            this.txtTabPreco.TabIndex = 17;
+            this.txtTabPreco.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtTabPreco.TextNew = "";
+            this.txtTabPreco.UnderlinedStyle = true;
+            this.txtTabPreco.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTabPreco_KeyPress);
+            this.txtTabPreco.Leave += new System.EventHandler(this.txtTabPreco_Leave);
+            // 
             // txtCodigo
             // 
             this.txtCodigo.BackColor = System.Drawing.SystemColors.Window;
@@ -307,11 +181,177 @@
             this.txtCodigo.UnderlinedStyle = true;
             this.txtCodigo.Leave += new System.EventHandler(this.txtCodigo_Leave);
             // 
+            // btnExcluir
+            // 
+            this.btnExcluir.BackColor = System.Drawing.Color.Red;
+            this.btnExcluir.BackgroundColor = System.Drawing.Color.Red;
+            this.btnExcluir.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnExcluir.BorderRadius = 15;
+            this.btnExcluir.BorderSize = 0;
+            this.btnExcluir.FlatAppearance.BorderSize = 0;
+            this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcluir.ForeColor = System.Drawing.Color.White;
+            this.btnExcluir.Location = new System.Drawing.Point(206, 389);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(150, 40);
+            this.btnExcluir.TabIndex = 13;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.TextColor = System.Drawing.Color.White;
+            this.btnExcluir.UseVisualStyleBackColor = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnSair.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnSair.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnSair.BorderRadius = 15;
+            this.btnSair.BorderSize = 0;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.Location = new System.Drawing.Point(362, 389);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(150, 40);
+            this.btnSair.TabIndex = 12;
+            this.btnSair.Text = "Sair";
+            this.btnSair.TextColor = System.Drawing.Color.White;
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // btnConfirmar
+            // 
+            this.btnConfirmar.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnConfirmar.BackgroundColor = System.Drawing.Color.ForestGreen;
+            this.btnConfirmar.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnConfirmar.BorderRadius = 15;
+            this.btnConfirmar.BorderSize = 0;
+            this.btnConfirmar.FlatAppearance.BorderSize = 0;
+            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmar.ForeColor = System.Drawing.Color.White;
+            this.btnConfirmar.Location = new System.Drawing.Point(50, 389);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(150, 40);
+            this.btnConfirmar.TabIndex = 11;
+            this.btnConfirmar.Text = "Confirmar";
+            this.btnConfirmar.TextColor = System.Drawing.Color.White;
+            this.btnConfirmar.UseVisualStyleBackColor = false;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
+            // 
+            // txtNCM
+            // 
+            this.txtNCM.BackColor = System.Drawing.SystemColors.Window;
+            this.txtNCM.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.txtNCM.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtNCM.BorderSize = 1;
+            this.txtNCM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.txtNCM.ForeColor = System.Drawing.Color.DimGray;
+            this.txtNCM.Location = new System.Drawing.Point(593, 154);
+            this.txtNCM.Margin = new System.Windows.Forms.Padding(5);
+            this.txtNCM.Multiline = false;
+            this.txtNCM.Name = "txtNCM";
+            this.txtNCM.Padding = new System.Windows.Forms.Padding(9);
+            this.txtNCM.PasswordChar = false;
+            this.txtNCM.ReadOnly = false;
+            this.txtNCM.Size = new System.Drawing.Size(190, 35);
+            this.txtNCM.TabIndex = 9;
+            this.txtNCM.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtNCM.TextNew = "";
+            this.txtNCM.UnderlinedStyle = true;
+            // 
+            // txtEstoque
+            // 
+            this.txtEstoque.BackColor = System.Drawing.SystemColors.Window;
+            this.txtEstoque.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.txtEstoque.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtEstoque.BorderSize = 1;
+            this.txtEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.txtEstoque.ForeColor = System.Drawing.Color.DimGray;
+            this.txtEstoque.Location = new System.Drawing.Point(147, 301);
+            this.txtEstoque.Margin = new System.Windows.Forms.Padding(5);
+            this.txtEstoque.Multiline = false;
+            this.txtEstoque.Name = "txtEstoque";
+            this.txtEstoque.Padding = new System.Windows.Forms.Padding(9);
+            this.txtEstoque.PasswordChar = false;
+            this.txtEstoque.ReadOnly = false;
+            this.txtEstoque.Size = new System.Drawing.Size(333, 35);
+            this.txtEstoque.TabIndex = 7;
+            this.txtEstoque.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtEstoque.TextNew = "";
+            this.txtEstoque.UnderlinedStyle = true;
+            this.txtEstoque.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTabPreco_KeyPress);
+            this.txtEstoque.Leave += new System.EventHandler(this.txtTabPreco_Leave);
+            // 
+            // txtPreco
+            // 
+            this.txtPreco.BackColor = System.Drawing.SystemColors.Window;
+            this.txtPreco.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.txtPreco.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtPreco.BorderSize = 1;
+            this.txtPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.txtPreco.ForeColor = System.Drawing.Color.DimGray;
+            this.txtPreco.Location = new System.Drawing.Point(147, 256);
+            this.txtPreco.Margin = new System.Windows.Forms.Padding(5);
+            this.txtPreco.Multiline = false;
+            this.txtPreco.Name = "txtPreco";
+            this.txtPreco.Padding = new System.Windows.Forms.Padding(9);
+            this.txtPreco.PasswordChar = false;
+            this.txtPreco.ReadOnly = true;
+            this.txtPreco.Size = new System.Drawing.Size(333, 35);
+            this.txtPreco.TabIndex = 5;
+            this.txtPreco.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtPreco.TextNew = "";
+            this.txtPreco.UnderlinedStyle = true;
+            // 
+            // txtClassificacao
+            // 
+            this.txtClassificacao.BackColor = System.Drawing.SystemColors.Window;
+            this.txtClassificacao.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.txtClassificacao.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtClassificacao.BorderSize = 1;
+            this.txtClassificacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.txtClassificacao.ForeColor = System.Drawing.Color.DimGray;
+            this.txtClassificacao.Location = new System.Drawing.Point(179, 211);
+            this.txtClassificacao.Margin = new System.Windows.Forms.Padding(5);
+            this.txtClassificacao.Multiline = false;
+            this.txtClassificacao.Name = "txtClassificacao";
+            this.txtClassificacao.Padding = new System.Windows.Forms.Padding(9);
+            this.txtClassificacao.PasswordChar = false;
+            this.txtClassificacao.ReadOnly = false;
+            this.txtClassificacao.Size = new System.Drawing.Size(333, 35);
+            this.txtClassificacao.TabIndex = 3;
+            this.txtClassificacao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtClassificacao.TextNew = "Principal";
+            this.txtClassificacao.UnderlinedStyle = true;
+            // 
+            // txtDescricao
+            // 
+            this.txtDescricao.BackColor = System.Drawing.SystemColors.Window;
+            this.txtDescricao.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.txtDescricao.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtDescricao.BorderSize = 1;
+            this.txtDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.txtDescricao.ForeColor = System.Drawing.Color.DimGray;
+            this.txtDescricao.Location = new System.Drawing.Point(147, 154);
+            this.txtDescricao.Margin = new System.Windows.Forms.Padding(5);
+            this.txtDescricao.Multiline = false;
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Padding = new System.Windows.Forms.Padding(9);
+            this.txtDescricao.PasswordChar = false;
+            this.txtDescricao.ReadOnly = false;
+            this.txtDescricao.Size = new System.Drawing.Size(333, 35);
+            this.txtDescricao.TabIndex = 0;
+            this.txtDescricao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtDescricao.TextNew = "";
+            this.txtDescricao.UnderlinedStyle = true;
+            // 
             // FrmCadastroProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtTabPreco);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.label5);
@@ -354,5 +394,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private controls.novoTextBox txtCodigo;
+        private System.Windows.Forms.Label label7;
+        private controls.novoTextBox txtTabPreco;
     }
 }
