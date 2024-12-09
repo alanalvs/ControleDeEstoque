@@ -33,7 +33,7 @@ namespace ControleDeEstoque.views
                 AlterarNomeClassificacao(txtClassificacao.TextNew);
                 //MessageBox.Show("Cadastro concluído com sucesso!", "VIZZION", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                //new Helpers().LimparTela(this);
+                //new Helpers().LimparTela(this);   
             }
         }
 
